@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+} 
+
+.banner2 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+} 
+
+
+
+.logo{
+  width:  190px;
+  cursor: pointer;
+  left: 30%;
+  transform: translate(-30%, -5%);
+  
+  
+}
+
+.navbar{
+   width: 85%;
+   margin: auto;
+   padding: 1px 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: aliceblue;
+  position: absolute;
+  left: 0;  
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+  width: 100%;
+}
+
+.content {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.content h1{ 
+  font-size: 50px;
+  
+
+
+}
+
+.searchbox {
+  background: #fff;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  padding: 18px 20px;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.searchbox button{
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  
+}
+
+.searchbox input{
+  background: transparent;
+  width: 600px;
+  border: 0;
+ outline: none;
+  
+}
+
+.searchbox button img{
+  width: 23px;
+  
+} 
+
+
+
+.content2{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-80%);
+  text-align: center;
+  color: aliceblue;
+}
+
+.content2 h2{
+  font-zise: 70px;
+  margin-top: 80px;
+
+}
+
+.content2 p{
+margin: 20px auto;
+font-weight: 100;
+line-height: 25px;
+
+}
+
+.yourmom h1{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  
+}
+
+
+.content3 {
+  position: absolute; 
+  
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  color: aliceblue;
+  text-align: center;
+  padding-bottom: 20px;
+  } 
